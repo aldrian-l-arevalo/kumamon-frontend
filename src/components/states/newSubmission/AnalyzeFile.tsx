@@ -71,7 +71,6 @@ const AnalyzeFile: React.FC<FileAnalysisProps> = ({ file, onFileAnalysis }) => {
                 productCategory: "packaging",
               }}
             >
-              {/* TODO: Need atong trash icon */}
               <Row>
                 <Col span={24} className="mb-4">
                   <Item name="fileName" label="File Name">

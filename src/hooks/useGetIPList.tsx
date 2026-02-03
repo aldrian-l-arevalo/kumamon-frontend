@@ -14,14 +14,14 @@ const MOCK_IP_LIST: IIPInstance[] = [
   },
   {
     id: "2",
-    name: "(EN)Kumamon",
-    imgUrl: "/kumamon.png",
+    name: "(EN)Kirarin",
+    imgUrl: "/kirarin.png",
     lastSync: "Last Sync 2 Hours Ago",
   },
   {
     id: "3",
-    name: "(CN)Kumamon",
-    imgUrl: "/kumamon.png",
+    name: "(CN)Maru",
+    imgUrl: "/maru.png",
     lastSync: "Last Sync 2 Hours Ago",
   },
 ];
