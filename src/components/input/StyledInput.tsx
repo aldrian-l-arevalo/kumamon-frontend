@@ -9,7 +9,7 @@ export type StyledInputProps = Omit<
 };
 
 export const StyledInput: React.FC<StyledInputProps> = ({
-  width = null,
+  width,
   style,
   ...props
 }) => {
@@ -36,7 +36,7 @@ export const StyledInput: React.FC<StyledInputProps> = ({
       <Input
         {...props}
         style={{
-          width,
+          ...(width !== undefined && { width }),
           height: 52,
           borderRadius: 20,
           background: "#8383831F",
